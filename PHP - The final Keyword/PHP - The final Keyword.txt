@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+final class Fruit {
+}
+
+class Strawberry extends Fruit {
+}
+
+?>
+ 
+</body>
+</html>
+
+
+
+
+PHP Fatal error: Class Strawberry may not inherit from final class (Fruit) in /home/o6MTL0/prog.php on line 10

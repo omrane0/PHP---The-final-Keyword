@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+class Fruit {
+  final public function intro() {
+  }
+}
+
+class Strawberry extends Fruit {
+  // will result in error
+  public function intro() {
+  }
+}
+?>
+ 
+</body>
+</html>
+
+
+
+PHP Fatal error: Cannot override final method Fruit::intro() in /home/sdpysj/prog.php on line 15
